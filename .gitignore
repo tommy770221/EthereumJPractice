@@ -1,0 +1,74 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# Gradle:
+.idea/gradle.xml
+.idea/libraries
+
+# Mongo Explorer plugin:
+.idea/mongoSettings.xml
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+/colors/
+/colors.scheme.xml
+/databaseSettings.xml
+/EthereumTest.iml
+/ignore.xml
+/other.xml
+/EthereumJPractice.iml
+/jdk.table.xml
+/ide.general.xml
+/diff.xml
+/IntelliLang.xml
+/gradle.run.settings.xml
+/project.default.xml
+/vcs.xml
+/find.xml
+/web-browsers.xml
+/github_settings.xml
+/gradle.settings.xml
+/databaseDrivers.xml
+/_windows/
+/filetypes.xml
+/debugger.xml
+/ui.lnf.xml
+/mavenVersion.xml

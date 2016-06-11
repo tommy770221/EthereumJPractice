@@ -36,12 +36,13 @@ public class MyEthereumAddressTest {
           //ECDSA       Derive the public key from this private key (128 characters / 64 bytes)
           System.out.println("public key  :   "+new String(Hex.encode(account.getEcKey().getPubKeyPoint().getEncoded(false))));
 
-          // EC  CURVE  ECPrivateKeyParameters  Integer
+          // EC  CURVE  ECPrivateKeyParameters  BigInteger => toString method
           System.out.println("priv key    :   "+account.getEcKey().getPrivKey());
           // A  random private key (64 characters / 32 bytes)   With Hex.encode =>64characters
           System.out.println("priv key    :   "+new String(Hex.encode(account.getEcKey().getPrivKey().toByteArray())));
           //  Pub + Private  Key    Hex.decode String
           System.out.println("pub+priv key    :   "+account.getEcKey().toStringWithPrivate());
+
 
 
      }

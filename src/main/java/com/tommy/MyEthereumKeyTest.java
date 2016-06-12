@@ -30,5 +30,11 @@ public class MyEthereumKeyTest {
         accountTwo.init(ecKey);
         System.out.println("Address : "+new String(Hex.encode(accountTwo.getAddress())));
         System.out.println("Address : 49282ceac5b6a764b06247fe0efc86911a3c1ada");
+        ECKey ecKeySecond=ECKey.fromPrivate(new BigInteger(1, Hex.decode(privateKey)));
+        Account accountThree=new Account();
+        accountThree.init(ecKeySecond);
+        System.out.println("Address Three        : "+new String(Hex.encode(accountThree.getAddress())));
+        System.out.println("pub+priv key Three   : "+accountThree.getEcKey().toStringWithPrivate());
+
     }
 }

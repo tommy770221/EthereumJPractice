@@ -11,7 +11,7 @@ public class ECDSATest {
     public static void main(String[] args) throws Exception {
         Security.addProvider(new org.bouncycastle.jce.provider.BouncyCastleProvider());
         KeyPairGenerator keyGen = KeyPairGenerator.getInstance("ECDSA", "BC");
-        ECGenParameterSpec ecSpec = new ECGenParameterSpec("prime192v1");
+        ECGenParameterSpec ecSpec = new ECGenParameterSpec("secp256k1");
 
         keyGen.initialize(ecSpec, new SecureRandom());
 
